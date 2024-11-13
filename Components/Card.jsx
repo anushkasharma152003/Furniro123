@@ -3,8 +3,8 @@ import React from 'react'
 
 const Card = ({ product }) => {
   return (
-    <section className='relative hover:bg-black hover:opacity-55'> 
-        <div className='bg-[#F4F5F7] inline-block'>
+    <section className='relative hover:brightness-50'> 
+        <div className='bg-[#F4F5F7] inline-block '>
             <div><img src={product.image} alt={product.name} /></div>
             <div className='ml-[16px] mt-[16px]'>
                 <div className='mb-[8px]'><h1 className='font-semibold text-2xl'>{product.name}</h1></div>
