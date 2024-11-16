@@ -1,7 +1,7 @@
 
 import React from 'react'
 import Card from './Card'
-import products from '../Data' 
+import {products} from '../Data' 
 
 
 const Section2 = () => {
