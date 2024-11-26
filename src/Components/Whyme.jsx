@@ -2,7 +2,7 @@ import React from 'react'
 
 const Whyme = () => {
   return (
-   <section className='px-[53px] py-[100px] bg-[#FAF3EA] -mb-[50px] lg:w-screen sm:w-[1024px] md:w-[1124px]  w-[960px]  '>
+   <section className='px-[53px] py-[100px] bg-[#FAF3EA] -mb-[50px] lg:w-screen sm:w-[1024px] md:w-[1124px] w-[960px]  '>
      <div className='flex  '>
         <div className=' flex  ' >
             <div><img src="/Whyme1.png" alt="" /></div>
