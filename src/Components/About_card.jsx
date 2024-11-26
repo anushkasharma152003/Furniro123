@@ -2,9 +2,9 @@ import React from 'react'
 
 const About_card = ({product}) => {
   return (
-  <section>
+  <section className='  '>
       <div>
-         <div className='w-[817px]'><img src={product.image} alt="" /></div>
+         <div className='lg:w-[817px] md:w-[600px] sm:w-[400px] w-[300px]'><img src={product.image} alt="" /></div>
          <div className='pt-[17px] flex gap-[35px]'>
            <div className='flex'>
               <div><img src="About_icon1.png" alt="" /></div>
@@ -23,7 +23,7 @@ const About_card = ({product}) => {
          </div>
 
          <div><h1 className='font-medium text-[30px] my-[12px]'>{product.heading}</h1></div>
-          <div className=' w-[817px] '><p className='text-[16px] font-normal text-[#9F9F9F]' >{product.desc}</p></div>
+          <div className=' lg:w-[817px] md:w-[600px] sm:w-[400px] w-[300px]   '><p className='text-[16px] font-normal text-[#9F9F9F]' >{product.desc}</p></div>
          
          <div><h2 className='font-normal text-base mt-[30px]'>Read more</h2></div>
          <div className='ml-[8px] w-[70px] h-[3px] bg-black mt-[6px] ' ></div>

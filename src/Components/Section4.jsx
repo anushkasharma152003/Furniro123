@@ -3,7 +3,7 @@ import React from 'react'
 const Section4 = () => {
   return (
     <section className=''>
-        <div className='-mb-[px]'>
+        <div className='-mb-[px] lg:w-screen sm:w-[1024px] md:w-[1124px]  w-[960px]  '>
             <div className='flex justify-center text-xl font-semibold text-[#616161]  ' ><p>Share your set up with</p></div>
             <div className='flex justify-center text-[40px] font-bold '><h1>#FuniroFurniture</h1></div>
         </div>

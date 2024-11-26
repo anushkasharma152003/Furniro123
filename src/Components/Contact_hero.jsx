@@ -2,15 +2,11 @@ import React from 'react'
 
 const Contact_hero = () => {
   return (
-    <section>
-          <div className='relative'>
+    <section className='lg:w-screen sm:w-[1024px] md:w-[1124px]  w-[960px] '> 
+          <div className='relative '>
             <div><img src="/Shophero1.png" alt="" /></div>
             <div className='flex justify-center'><h1 className='absolute  top-[121px] font-medium text-5xl'>Contact</h1></div>
-            <div className='flex absolute top-[195px] left-[660px]'>
-                <div><h2 className='font-medium text-base'>Home</h2></div>
-                 <div><img src="Shop_hero_icon.png" alt="" className='pt-[3px]' /></div>
-                 <div><h2 className='font-light text-base'>Contact</h2></div>
-            </div>
+            
           </div>
 
 
@@ -48,26 +44,26 @@ const Contact_hero = () => {
             </div>
 
 
-          <div className='pt-[119px] ml-[125px]'>
+          <div className='pt-[119px] lg:ml-[125px] sm:ml-[50px] '>
                 <form className='flex flex-col gap-[36px]'> 
                   <div className='flex flex-col'>
                   <label htmlFor="" className='font-medium text-base mb-[22px]' >Your name </label>
-                  <input type="text" name="" id=""  placeholder='Abc' className='border-2 pl-[31px] w-[528px]  pt-[22px] pb-[25px] rounded-[10px]'/>
+                  <input type="text" name="" id=""  placeholder='Abc' className='border-2 pl-[31px] lg:w-[528px] sm:w-[400px]  w-[300px]    pt-[22px] pb-[25px] rounded-[10px]'/>
                   </div>
 
                   <div className='flex flex-col'>
                   <label htmlFor="" className='font-medium text-base mb-[22px]' >Email address </label>
-                  <input type="text" name="" id=""  placeholder='Abc@def.com' className='border-2 pl-[29px] w-[528px]  pt-[26px] pb-[25px] rounded-[10px]'/>
+                  <input type="text" name="" id=""  placeholder='Abc@def.com' className='border-2 pl-[29px] lg:w-[528px] sm:w-[400px]  w-[300px]   pt-[26px] pb-[25px] rounded-[10px]'/>
                   </div>
 
                   <div className='flex flex-col'>
                   <label htmlFor="" className='font-medium text-base mb-[22px]' >Your name </label>
-                  <input type="text" name="" id=""  placeholder='This is an optional' className='border-2 pl-[29px] w-[528px]  pt-[26px] pb-[25px] rounded-[10px]'/>
+                  <input type="text" name="" id=""  placeholder='This is an optional' className='border-2 pl-[29px] lg:w-[528px] sm:w-[400px]   w-[300px]    pt-[26px] pb-[25px] rounded-[10px]'/>
                   </div>
 
                   <div className='flex flex-col'>
                   <label htmlFor="" className='font-medium text-base mb-[22px]' >Your name </label>
-                  <input type="text" name="" id=""  placeholder='Hi! i’d like to ask about' className='border-2 pl-[31px] w-[528px]  pt-[22px] pb-[70px] rounded-[10px]'/>
+                  <input type="text" name="" id=""  placeholder='Hi! i’d like to ask about' className='border-2 pl-[31px] lg:w-[528px] sm:w-[400px] w-[300px]  pt-[22px] pb-[70px] rounded-[10px]'/>
                   </div>
 
                   <div><button className='bg-[#B88E2F] text-[#FFFFFF] font-normal text-base px-[89px] py-[13px] rounded-[5px]'>Submit</button></div>

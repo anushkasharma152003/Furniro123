@@ -2,18 +2,18 @@ import React from 'react'
 
 const Shop_hero = () => {
   return (
-    <section>
-        <div className='relative'>
+    <section className='lg:w-screen sm:w-[1024px] md:w-[1124px]  w-[960px]   '>
+        <div className='relative lg:w-screen sm:w-[1024px] md:w-[1204px] w-[960px]   '>
             <div><img src="/Shophero1.png" alt="" /></div>
             <div className='flex justify-center'><h1 className='absolute  top-[121px] font-medium text-5xl'>SHOP</h1></div>
             <div className='flex absolute top-[195px] left-[660px]'>
-                <div><h2 className='font-medium text-base'>Home</h2></div>
-                <div><img src="Shop_hero_icon.png" alt="" className='pt-[3px]' /></div>
-                <div><h2 className='font-light text-base'>Shop</h2></div>
+                <div><h2 className='font-medium text-base'></h2></div>
+             
+                <div><h2 className='font-light text-base'></h2></div>
             </div>
         </div>
 
-        <div className='bg-[#F9F1E7] -mt-2'>
+        <div className='bg-[#F9F1E7] -mt-2 lg:w-screen sm:w-[1024px] md:w-[1204px] w-[960px]   '>
             <div className='p-[50px] flex justify-between'>
                 <div className='flex'>
                     <div className='pl-[98px] '><img src="Shop_hero_icon2.png" alt="" /></div>

@@ -2,7 +2,7 @@ import React from 'react'
 
 const section3 = () => {
   return (
-    <div className='mb-[100px] bg-[#FCF8F3] flex'>
+    <div className='mb-[100px] bg-[#FCF8F3] lg:w-screen  sm:w-[1024px] md:w-[1124px]  w-[960px]   flex'>
         <div className='pl-[100px] pt-[223px] pb-[233px]'>
             <h1 className='text-[40px] font-bold'>50+Beautiful rooms <br /> inspiration  </h1>
             <p className='pt-[7px] text-base font-medium text-[#616161] '> Our designer already made a lot of beautiful <br /> prototype of rooms that inspire you</p>
